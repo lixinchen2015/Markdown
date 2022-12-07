@@ -387,14 +387,14 @@ $$
 行省略号\cdots，列省略号\vdots，斜向省略号（左上至右下）\ddots。
 ```
 $$
- \left\{
+ \left\\{
  \begin{matrix}
  1      & 2        & \cdots & 5        \\
  6      & 7        & \cdots & 10       \\
  \vdots & \vdots   & \ddots & \vdots   \\
  \alpha & \alpha+1 & \cdots & \alpha+4 
  \end{matrix}
- \right\}
+ \right\\}
 $$
 ```
 $$
