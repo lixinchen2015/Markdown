@@ -153,15 +153,15 @@ ps:URL中间的空格方式不一样。为了兼容性，请尽量使用%20代�
 
 ```![图片alt](图片链接 "图片title")。```  
 示例：
-```![这是图片](./assets/img/philly-magic-garden.jpg "Magic Gardens")```
+```![这是图片](./assets/img/无尽的楼梯通向天堂，天空充满了云.jpg "无尽的楼梯通向天堂，天空充满了云")```
 
-![这是图片](./assets/img/philly-magic-garden.jpg "Magic Gardens")
+![这是图片](./assets/img/无尽的楼梯通向天堂，天空充满了云.jpg "无尽的楼梯通向天堂，天空充满了云")
 
 给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。  
 示例：
-```[![沙漠中的岩石图片](./assets/img/shiprock.jpg "Shiprock")](https://github.com/lixinchen2015/Markdown-/blob/main/Readme.md)```
+```[![沙漠中的岩石图片](./assets/img/绿洲的岩石.jpg "绿洲的岩石")](https://github.com/lixinchen2015/Markdown-/blob/main/Readme.md)```
 
-[![沙漠中的岩石图片](./assets/img/shiprock.jpg "Shiprock")](https://github.com/lixinchen2015/Markdown-/blob/main/Readme.md)
+[![沙漠中的岩石图片](./assets/img/绿洲的岩石.jpg "绿洲的岩石")](https://github.com/lixinchen2015/Markdown-/blob/main/Readme.md)
 
 ### 9.转义字符
 要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。
