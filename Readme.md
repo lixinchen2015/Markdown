@@ -243,6 +243,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 ```$$```  
 ```h_\theta(x)=\theta_0+\theta_1*x```  
 ```$$```
+
 $$
 h_\theta(x)=\theta_0+\theta_1*x
 $$
@@ -258,7 +259,7 @@ $$
 | 下  标 | $y_1$ | ```y_1``` |
 | 正无穷 | $+\infty$ | ```+\infty``` |
 | 负无穷 | $-\infty$ | ```-\infty``` |
-| 加减乘 | $a*b-c$ | ```a+b-c``` |
+| 加减乘 | $a\*b-c$ | ```a+b-c``` |
 |  除  | $a\div{b}$ | ```a\div{b}``` |
 |  分式  | $\frac{a}{b}$ | ```\frac{a}{b}``` |
 | 正负号 | $a\pm{d}$ | ```a\pm{d}``` |
@@ -321,14 +322,15 @@ $$
 \tag{3}
 $$
 ```
+
 $$
-\left\{
+\left\{  
 \begin{matrix}
 1 & 2 & 3 \\
 4 & 5 & 6 \\
 7 & 8 & 9
 \end{matrix}
-\right\}
+\right\}  
 \tag{3}
 $$
 
@@ -520,15 +522,15 @@ $$
 ### 12.通过Python生成Latex表达式
 ```python
 {
-import math//引入数学模块(有些运算的函数需要)  
-import latexify//引入latexify模块  
-
-@latexify.with_latex//特定语法，表示之后定义的函数可以转化为LaTeX代码  
-def f(x,y,z)://包含的参数  
-pass   //此处填写可能需要的数学表达式  
-return result//也可以直接体现数学关系  
-
-print(f)   //直接print(函数名)
+    import math//引入数学模块(有些运算的函数需要)  
+    import latexify//引入latexify模块  
+    
+    @latexify.with_latex//特定语法，表示之后定义的函数可以转化为LaTeX代码  
+    def f(x,y,z)://包含的参数  
+        pass   //此处填写可能需要的数学表达式  
+        return result//也可以直接体现数学关系  
+    
+    print(f)   //直接print(函数名)
 }
 ```
 
