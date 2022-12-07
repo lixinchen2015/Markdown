@@ -398,14 +398,14 @@ $$
 $$
 ```
 $$
- \left\{
+ \left\\{
  \begin{matrix}
  1      & 2        & \cdots & 5        \\
  6      & 7        & \cdots & 10       \\
  \vdots & \vdots   & \ddots & \vdots   \\
  \alpha & \alpha+1 & \cdots & \alpha+4 
  \end{matrix}
- \right\}
+ \right\\}
 $$
 ### 6.行列式
 ```
