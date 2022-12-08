@@ -271,6 +271,7 @@ $$
 | 向量 | $\overrightarrow{AB}$ | ```\overrightarrow{AB}``` |
 | 累加 | $\sum_{i=1}^{n}{a_i}$ | ```$\sum_{i=1}^{n}{a_i}$``` |
 | 累乘 | $\prod_{i=1}^{n}{a_i}$ | ```$\prod_{i=1}^{n}{a_i}$``` |
+| 极限 | $\lim_{a\rightarrow+\infty}{a^2}$ | ```$\lim_{a\rightarrow+\infty}{a^2}$``` |
 
 
 ### 4.公式序号
