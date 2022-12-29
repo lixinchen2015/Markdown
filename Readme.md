@@ -273,6 +273,12 @@ $$
 | 向量 | $\vec{a}$ | ```\vec{a}``` |
 | 向量 | $\overleftarrow{AB}$ | ```\overleftarrow{AB}``` |
 | 向量 | $\overrightarrow{AB}$ | ```\overrightarrow{AB}``` |
+| 平均值 | $\overline{a}$ | ```\overline{a}``` |
+| 下横线 | $\underline{a}$ | ```\underline{a}``` |
+| y尖(线性回归，直线方程) | $\widehat{a}$ | ```\widehat{a}``` |
+| 颚化符号  等价无穷小 | $\widetilde{a}$ | ```\widetilde{a}``` |
+| 一阶导数 | $\dot{a}$ | ```\dot{a}``` |
+| 二阶导数 | $\ddot{a}$ | ```\ddot{a}``` |
 | 累加 | $\sum_{i=1}^{n}{a_i}$ | ```$\sum_{i=1}^{n}{a_i}$``` |
 | 累乘 | $\prod_{i=1}^{n}{a_i}$ | ```$\prod_{i=1}^{n}{a_i}$``` |
 | 极限 | $\lim_{a\rightarrow+\infty}{a^2}$ | ```$\lim_{a\rightarrow+\infty}{a^2}$``` |
